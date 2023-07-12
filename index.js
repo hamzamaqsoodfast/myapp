@@ -6,13 +6,8 @@ const WebSocket = require('ws'); // Move the WebSocket import here
 const util = require('util');
 
 
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-// Define routes and middleware
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/whatsapp.html');
+  res.sendFile(path.join(__dirname, 'client', 'whatsapp.html'));
 });
 const wss = new WebSocket.Server({ port: 8080 }); // Set the desired port
 
