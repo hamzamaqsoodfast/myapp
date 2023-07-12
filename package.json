@@ -1,0 +1,22 @@
+{
+  "name": "myappings",
+  "version": "1.0.0",
+  "description": "hamza app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzamaqsoodfast/myapp.git"
+  },
+  "keywords": [
+    "wabot"
+  ],
+  "author": "HAMZA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzamaqsoodfast/myapp/issues"
+  },
+  "homepage": "https://github.com/hamzamaqsoodfast/myapp#readme"
+}
